@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<script src="app.js"></script>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="theme.css" type="text/css">
+  <script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyC7Dgew3Q4s_Lu4D2rmAk90HKmcyXHxRaU",
+        authDomain: "vui-jhonny.firebaseapp.com",
+        databaseURL: "https://vui-jhonny.firebaseio.com",
+        projectId: "vui-jhonny",
+        storageBucket: "vui-jhonny.appspot.com",
+        messagingSenderId: "307202204757"
+    };
+    firebase.initializeApp(config);
+</script>
+</head>
+
+<body class="" style="background-image: url('Pitbull-backgrounds-wallpapers-.jpg');background-repeat:no-repeat;background-size:cover;background-position:right top;" >
+<div class="py-5 d-flex justify-content-center align-items-center align-self-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1 class="display-1 d-flex justify-content-center">registro de nuevas asociaciones</h1>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="py-5 d-flex justify-content-center align-items-center align-self-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 bg-light offset-md-3">
+        <form class="">
+          <div class="form-group">
+            <label>Email address</label>
+            <input type="email" class="form-control" placeholder="Enter email" id="email">
+          </div>
+          <div class="form-group bg-light">
+            <label>Password</label>
+            <input type="password" class="form-control" placeholder="Password" id="password"> </div>
+          <button type="submit" class="btn btn-primary" onclick="ingresar()">LogIn<br> </button>
+          <button type="submit" class="btn btn-primary d-inline-flex flex-column" href="registro.html">Registrarse</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+<script src="https://www.gstatic.com/firebasejs/5.0.2/firebase.js"></script>

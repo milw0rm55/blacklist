@@ -1,0 +1,41 @@
+[debug] [2018-05-14T19:34:43.022Z] ----------------------------------------------------------------------
+[debug] [2018-05-14T19:34:43.024Z] Command:       /usr/bin/node /usr/bin/firebase serve
+[debug] [2018-05-14T19:34:43.025Z] CLI Version:   3.18.4
+[debug] [2018-05-14T19:34:43.025Z] Platform:      linux
+[debug] [2018-05-14T19:34:43.025Z] Node Version:  v6.14.1
+[debug] [2018-05-14T19:34:43.025Z] Time:          Mon May 14 2018 21:34:43 GMT+0200 (CEST)
+[debug] [2018-05-14T19:34:43.025Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-14T19:34:43.032Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-05-14T19:34:43.033Z] > authorizing via signed-in user
+[debug] [2018-05-14T19:34:43.034Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-14T19:34:43.035Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/TLw1jk75voPbrOv0iO81k80NVCZYpbBsuGzkd-gNhBg',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon May 14 2018 21:34:43 GMT+0200 (CEST)
+[debug] [2018-05-14T19:34:43.208Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-14T19:34:43.214Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/vui-jhonny  
+  
+ Mon May 14 2018 21:34:43 GMT+0200 (CEST)
+[debug] [2018-05-14T19:34:44.056Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-14T19:34:44.056Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/vui-jhonny/tokens  
+  
+ Mon May 14 2018 21:34:44 GMT+0200 (CEST)
+[debug] [2018-05-14T19:34:44.821Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-14T19:34:44.824Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/vui-jhonny  
+  
+ Mon May 14 2018 21:34:44 GMT+0200 (CEST)
+[debug] [2018-05-14T19:34:45.619Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/milw0rm/Desktop/proyectoyoni'...
+[info] 
+[debug] [2018-05-14T19:34:45.626Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/307202204757/clients/_:getWebAppConfig  
+  
+ Mon May 14 2018 21:34:45 GMT+0200 (CEST)
+[debug] [2018-05-14T19:34:46.151Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] ✔  hosting: Local server: http://localhost:5000
+
